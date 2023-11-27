@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.header-cont {
+    width: 1440px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.left-side-header {
+    width: 720px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-cont {
+    margin-top: 140px;
+    height: 1500px;
+    width: 1440px;
+
+    background-image: url(images/evian_origins_logo.png);
+}
+
+.Evian {
+    margin-left: 50px;
+    font-weight: 400px;
+    line-height: 57px;
+    color: #E50043;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-side-header {
+    width: 720px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #E50043;
+}
+
+
+
+.hero-cont {
+    width: 1440px;
+    height: 950px;
+    display: flex;
+    justify-content: center; 
+}
+
+.hero-cont > p {
+    position: absolute;
+    top: 540px;
+    bottom: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E50043;
+    font-size: 100px;
+    
+}
+
+.one-content {
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OurWater {
+    width: 1040px;
+    height: 280px;
+    display: flex;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-cont {
+    width: 992px;
+    height: 232px;
+}
+
+.our-cont > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #000;
+    line-height: 28.75px;
+    letter-spacing: 5%;
+}
+
+.bottle-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 28.75px;
+    text-align: center;
+}
+
+.OurWater2 {
+    height: 720px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-content {
+    width: 1040px;
+    height: 280px;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.footer-cont {
+    display: flex;
+    height: 140px;
+    background-color: #F8BFC7;
+
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #FFF;
+}
+
+.first {
+    margin-left: 50px;
+}
+
+.second {
+    margin-right: 50px;
+}
